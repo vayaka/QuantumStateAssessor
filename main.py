@@ -22,7 +22,7 @@ async def main():
     dp.include_routers(*router_list)
     setup_dialogs(dp)
 
-    # await startup(bot)
+    await startup(bot)
 
     try:
         await bot.delete_webhook(drop_pending_updates=True)

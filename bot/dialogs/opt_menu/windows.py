@@ -1,11 +1,9 @@
-import logging
 import operator
 
-from aiogram_dialog import Window, Data, DialogManager, StartMode
+from aiogram_dialog import Window
 from aiogram_dialog.widgets.input import TextInput
-from aiogram_dialog.widgets.kbd import Column, Select, Row, Button, Start, Cancel, Back, SwitchTo
+from aiogram_dialog.widgets.kbd import Column, Select, Row, Start, Cancel, Back, SwitchTo
 from aiogram_dialog.widgets.text import Const, Format
-from typing import Any
 
 from .getters import get_types, get_structure, get_show_n_data
 from .selected import on_type_selected, on_structure_selected, on_lambda_entered
