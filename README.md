@@ -1,6 +1,4 @@
 # QuantumStateAssessor
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A Python package for assessing the quality of quantum states.
 
 Пакет Python для оценки качества квантовых состояний.
